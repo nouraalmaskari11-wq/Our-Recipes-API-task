@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Recipes</title>
+
+    <!-- Icons css file -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Main css file -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container1">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h1 class="main-title fw-bold">Our <span class="highligt">Recipes</span></h1>
+                <p>Find your favorite meal & enjoy cooking</p>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8">
+                    <div class="input-group mb-3 search-group">
+                        <input type="text" class="form-control form-control-lg simple-input"
+                            placeholder="search for meals ..." id="userInput">
+                        <button type="button" class="btn btn-search" id="searchBtn">
+                            <i class="fas fa-search"></i>Search
+                        </button>
+
+                    </div>
+                    <select name="" id="mealSelect" class="form-select simple-select mt-3">
+                        <option value="pizza">pizza</option>
+                        <option value="pomegranate">pomegranate</option>
+                        <option value="quince">quince</option>
+                        <option value="raspberry">raspberry</option>
+                        <option value="strawberry">strawberry</option>
+                        <option value="watermelon">watermelon</option>
+                        <option value="duck">duck</option>
+                        <option value="rendang">rendang</option>
+                        <option value="ham">ham</option>
+                        <option value="bacon">bacon</option>
+                        <option value="pepperoni">pepperoni</option>
+                        <option value="croissant">croissant</option>
+                        <option value="sushi">sushi</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="row justify-content-center g-4" id="row"></div>
+
+        </div>
+
+        <footer class="footer-section mt-auto py-4">
+            <div class="container text-center">
+                <h6>Made with passion for food lovers</h6>
+            </div>
+        </footer>
+    </div>
+<!-- js file -->
+<script src="./js/main.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>                                                                       
